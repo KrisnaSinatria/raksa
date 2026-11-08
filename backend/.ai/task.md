@@ -38,3 +38,7 @@ Fitur owner ditunda. Jangan tandai selesai hanya karena skema atau kontrak sudah
 
 ## Audit kesiapan endpoint
 - [x] Audit 11 route existing, perbaiki konfigurasi Auth/email login, dokumentasikan batasan dan uji live dengan data sintetis. 51 tes otomatis lulus.
+
+## Perbaikan build Railway
+- [x] Hapus rujukan constraint requirements.lock pada requirements.txt. pip dry-run berhasil dari folder terpisah tanpa file lock, memakai paket lokal yang sudah terpasang.
+- [ ] Push perubahan ke branch deployment dan verifikasi build Railway ulang; build bersih Linux belum diuji di lokal.
